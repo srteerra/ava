@@ -3,7 +3,7 @@
 {
   "build": {
     "baseDir": ".",
-    "publicDir": "public",
+    "publicDir": "dist",
     "command": "npm install && npm run build",
     "rootDir": ""
   }
