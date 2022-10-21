@@ -1,0 +1,10 @@
+// This is the configuration for Fleek service
+
+{
+  "build": {
+    "baseDir": ".",
+    "publicDir": "public",
+    "command": "npm install && npm run build",
+    "rootDir": ""
+  }
+}
