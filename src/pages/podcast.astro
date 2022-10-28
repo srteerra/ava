@@ -1,0 +1,103 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout title="Frio en Colombia | AVA">
+  <div class="w-screen h-72" style="background-image: url('https://images.unsplash.com/photo-1623167987983-722c1b1fe790?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80'); background-repeat: no-repeat; background-size: cover; background-position:bottom;">
+  </div>
+  <div class="px-0 md:px-56">
+    <div class="h-[120vh]">
+      <div class="grid-rows-1 absolute mx-auto h-[60rem] md:inset-5 md:top-[40%] w-screen xl:w-[80%] 2xl:w-[70%] px-0 lg:px-16">
+        <div class="relative">
+          <!-- Slide 1 -->
+          <div class="text-justify bg-white px-8 md:px-24 xl:px-40 pb-32" id="page1">
+            <div class="h-48 flex justify-center align-middle ">
+              <p class="text-2xl font-bold my-auto opacity-40">La voz de la experiencia</p>
+            </div>
+            <!-- <h1 class="text-xl sm:text-3xl md:text-5xl font-extrabold my-auto pb-12 uppercase text-left">EL CAMBIO CLIMÁTICO Y LAS BAJAS TEMPERATURAS EN COLOMBIA</h1> -->
+            <div class="grid grid-rows-1 grid-cols-1 md:grid-cols-2 gap-16">
+                <div class="h-[300px] w-full mx-auto" style="background-image: url('../../public/lucey.png'); background-repeat: no-repeat; background-size: cover; background-position:center;">
+                </div>
+                <div>
+                    <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold pb-6 capitalize"><span class="text-red-700">LUCEY</span> TABARES SEGURA</h3>
+                    <p class="pb-6 opacity-50">Paciente de 73 años de edad, que recodé en Cartagena bolívar, por tener un EPOC, nos cuenta un poco de su historia, de como al llegar esta enfermedad crónico obstructiva, tuvo que dejar Bogotá para el mejoramiento de su salud.</p>
+                    <audio controls class="w-full">
+                        <source src="../../public/entrevistaLucey.aac" type="audio/aac">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+
+
+            <div class="grid grid-rows-1 grid-cols-1 md:grid-cols-2 gap-16 my-40">
+                <div>
+                    <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold pb-6 uppercase"><span class="text-red-700">Samuel</span> X. Pimienta</h3>
+                    <p class="pb-6 opacity-50">Médico MSc en Informática Educativa por la Universidad de La Sabana. Me dedico a la educación médica y a la inteligencia artificial en salud.</p>
+                    <audio controls class="w-full">
+                        <source src="../../public/entrevistaSamuel.aac" type="audio/aac">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="h-[300px] w-full mx-auto" style="background-image: url('../../public/samuel.png'); background-repeat: no-repeat; background-size: cover; background-position:top;">
+                </div>
+            </div>
+
+
+            <div class="grid grid-rows-1 grid-cols-1 md:grid-cols-2 gap-16 my-40">
+                <div class="h-[300px] w-full mx-auto" style="background-image: url('../../public/margarita.png'); background-repeat: no-repeat; background-size: cover; background-position:top;">
+                </div>
+                <div>
+                    <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold pb-6 capitalize"><span class="text-red-700">MARGARITA</span> MARÍA POMAR HOYOS</h3>
+                    <p class="pb-6 opacity-50">Enfermera, especialista en Docencia Universitaria y magister en Cuidado Crítico.</p>
+                    <audio controls class="w-full">
+                        <source src="../../public/entrevistaIvan.aac" type="audio/aac">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+            
+
+            <div class="mt-24 opacity-60 w-full">
+              <p class="italic">
+                1. Dic 9. La OMS revela las principales causas de muerte y discapacidad en el mundo: 2000-2019 [Internet]. Paho.org. [citado el 23 de octubre de 2022]. Disponible en: <span><a class="text-red-900 font-bold"  href="https://www.paho.org/es/noticias/9-12-2020-oms-revela-principales-causas-muerte-discapacidad-mundo-2000-2019">https://www.paho.org/es/noticias/9-12-2020-oms-revela-principales-causas-muerte-discapacidad-mundo-2000-2019</a></span>
+              </p>
+              <br>
+              <p class="italic">
+                2. Semana. ¿Cómo está el corazón de los colombianos? [Internet]. Semana.com Últimas Noticias de Colombia y el Mundo. 2020 [citado el 23 de octubre de 2022]. Disponible en: <span><a class="text-red-900 font-bold"  href="https://www.semana.com/nacion/articulo/como-esta-el-corazon-de-los-colombianos/202037/">https://www.semana.com/nacion/articulo/como-esta-el-corazon-de-los-colombianos/202037/</a></span>
+              </p>
+              <br>
+              <p class="italic">
+                3. Diciembre BDC. Boletines Poblacionales 1 : Personas Adultas Mayores de 60 años Oficina de Promoción Social Ministerio de Salud y Protección Social I-2020 [Internet]. Gov.co. [citado el 23 de octubre de 2022]. Disponible en: <span><a class="text-red-900 font-bold"  href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/PS/280920-boletines-poblacionales-adulto-mayorI-2020.pdf">https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/PS/280920-boletines-poblacionales-adulto-mayorI-2020.pdf</a></span>
+              </p>
+              <br>
+              <p class="italic">
+                4. Colombia frente al calentamiento global - Universidad del Rosario [Internet]. Edu.co. [citado el 23 de octubre de 2022]. Disponible en: <span><a class="text-red-900 font-bold"  href="https://www.urosario.edu.co/Investigacion/UCD/Articulos/Colombia-frente-al-calentamiento-global/">https://www.urosario.edu.co/Investigacion/UCD/Articulos/Colombia-frente-al-calentamiento-global/</a></span>
+              </p>
+              <br>
+              <p class="italic">
+                5. Cambio Climático - IDIGER [Internet]. Gov.co. [citado el 23 de octubre de 2022]. Disponible en: <span><a class="text-red-900 font-bold"  href="https://www.idiger.gov.co/rcc">https://www.idiger.gov.co/rcc</a></span>
+              </p>
+              <br>
+              <p class="italic">
+                6. ¿Qué efectos tiene el frío sobre nuestra salud? - Blog [Internet]. ISGlobal. [citado el 23 de octubre de 2022]. Disponible en: <span><a class="text-red-900 font-bold"  href="https://www.isglobal.org/healthisglobal/-/custom-blog-portlet/-que-efectos-tiene-el-frio-sobre-nuestra-salud-/5734329/0">https://www.isglobal.org/healthisglobal/-/custom-blog-portlet/-que-efectos-tiene-el-frio-sobre-nuestra-salud-/5734329/0</a></span>
+              </p>
+              <br>
+              <p class="italic">
+                7.  Ministerio de Ambiente Y Desarrollo Sostenible. Colombia CSHAPCM. ¿QUÉ ES EL CAMBIO CLIMÁTICO Y CÓMO AFECTA A COLOMBIA? [Internet]. Colombia: Fundacion accion solidaria; 13/oct/2016. Disponible en: <span><a class="text-red-900 font-bold"  href="https://www.youtube.com/watch?v=d-b03pFg7UA&ab_channel=Fundaci%C3%B3nAcci%C3%B3nSocialSolidaria">https://www.youtube.com/watch?v=d-b03pFg7UA&ab_channel=Fundaci%C3%B3nAcci%C3%B3nSocialSolidaria</a></span>
+              </p>
+              <br>
+              <p class="italic">
+                8. IDEAM. TEMPERATURA MEDIA (°C) PARA EL PERIODO 1976-2005 [Internet]. IDEAM. 24AD [cited 20AD Oct]. Disponible en: <span><a class="text-red-900 font-bold"  href="http://www.ideam.gov.co/galeria-de-mapas?p_p_id=110_INSTANCE_4VnjNLZDi78B&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_110_INSTANCE_4VnjNLZDi78B_struts_action=%2Fdocument_library_display%2Fview_file_entry&_110_INSTANCE_4VnjNLZDi78B_redirect=http%3A%2F%2Fwww.ideam.gov.co%2Fgaleria-de-mapas%2F-%2Fdocument_library_display%2F4VnjNLZDi78B%2Fview%2F511760%3F_110_INSTANCE_4VnjNLZDi78B_advancedSearch%3Dfalse%26_110_INSTANCE_4VnjNLZDi78B_keywords%3D%26_110_INSTANCE_4VnjNLZDi78B_cur2%3D2%26_110_INSTANCE_4VnjNLZDi78B_topLink%3Dhome%26p_r_p_564233524_resetCur%3Dfalse%26_110_INSTANCE_4VnjNLZDi78B_delta2%3D20%26_110_INSTANCE_4VnjNLZDi78B_andOperator%3Dtrue&_110_INSTANCE_4VnjNLZDi78B_fileEntryId=98900954">See details</a></span>
+              </p>
+              <br>
+              <p class="italic">
+                9. IDEAM. Índice de Confort Térmico   Período 2011-2040 [Internet]. IDEAM. 24AD [cited 20AD Oct]. Disponible en: <span><a class="text-red-900 font-bold"  href="http://www.ideam.gov.co/galeria-de-mapas?p_p_id=110_INSTANCE_4VnjNLZDi78B&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_110_INSTANCE_4VnjNLZDi78B_struts_action=%2Fdocument_library_display%2Fview_file_entry&_110_INSTANCE_4VnjNLZDi78B_redirect=http%3A%2F%2Fwww.ideam.gov.co%2Fgaleria-de-mapas%2F-%2Fdocument_library_display%2F4VnjNLZDi78B%2Fview%2F511760%3F_110_INSTANCE_4VnjNLZDi78B_advancedSearch%3Dfalse%26_110_INSTANCE_4VnjNLZDi78B_keywords%3D%26_110_INSTANCE_4VnjNLZDi78B_cur2%3D2%26_110_INSTANCE_4VnjNLZDi78B_topLink%3Dhome%26p_r_p_564233524_resetCur%3Dfalse%26_110_INSTANCE_4VnjNLZDi78B_delta2%3D20%26_110_INSTANCE_4VnjNLZDi78B_andOperator%3Dtrue&_110_INSTANCE_4VnjNLZDi78B_fileEntryId=98900863">See details</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
