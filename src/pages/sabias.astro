@@ -15,6 +15,7 @@ import Footer from "../components/Footer.astro";
     var page_6 = document.getElementById("page6");
     var page_7 = document.getElementById("page7");
     var page_8 = document.getElementById("page8");
+    var page_9 = document.getElementById("page9");
 
     window.onload = function load() {
       page_1.style.visibility = "visible";
@@ -25,6 +26,7 @@ import Footer from "../components/Footer.astro";
       page_6.style.visibility = "hidden";
       page_7.style.visibility = "hidden";
       page_8.style.visibility = "hidden";
+      page_9.style.visibility = "hidden";
     }
 
     function changePagePrev() {
@@ -39,6 +41,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 2) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "visible";
@@ -48,6 +51,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 3) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "hidden";
@@ -57,6 +61,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 4) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "hidden";
@@ -66,6 +71,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 5) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "hidden";
@@ -75,6 +81,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 6) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "hidden";
@@ -84,6 +91,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "visible";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 7) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "hidden";
@@ -93,6 +101,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "visible";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 8) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "hidden";
@@ -102,6 +111,17 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "visible";
+          page_9.style.visibility = "hidden";
+        } else if (currentpage == 9) {
+          page_1.style.visibility = "hidden";
+          page_2.style.visibility = "hidden";
+          page_3.style.visibility = "hidden";
+          page_4.style.visibility = "hidden";
+          page_5.style.visibility = "hidden";
+          page_6.style.visibility = "hidden";
+          page_7.style.visibility = "hidden";
+          page_8.style.visibility = "hidden";
+          page_9.style.visibility = "visible";
         } else {
           console.log("error")
         }
@@ -109,7 +129,7 @@ import Footer from "../components/Footer.astro";
     }
 
     function changePageNext() {
-      if (currentpage !== 8) {
+      if (currentpage !== 9) {
         currentpage++;
         if (currentpage == 1) {
           page_1.style.visibility = "visible";
@@ -120,6 +140,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 2) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "visible";
@@ -129,6 +150,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 3) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "hidden";
@@ -138,6 +160,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 4) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "hidden";
@@ -147,6 +170,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 5) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "hidden";
@@ -156,6 +180,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 6) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "hidden";
@@ -165,6 +190,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "visible";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 7) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "hidden";
@@ -174,6 +200,7 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "visible";
           page_8.style.visibility = "hidden";
+          page_9.style.visibility = "hidden";
         } else if (currentpage == 8) {
           page_1.style.visibility = "hidden";
           page_2.style.visibility = "hidden";
@@ -183,6 +210,17 @@ import Footer from "../components/Footer.astro";
           page_6.style.visibility = "hidden";
           page_7.style.visibility = "hidden";
           page_8.style.visibility = "visible";
+          page_9.style.visibility = "hidden";
+        } else if (currentpage == 9) {
+          page_1.style.visibility = "hidden";
+          page_2.style.visibility = "hidden";
+          page_3.style.visibility = "hidden";
+          page_4.style.visibility = "hidden";
+          page_5.style.visibility = "hidden";
+          page_6.style.visibility = "hidden";
+          page_7.style.visibility = "hidden";
+          page_8.style.visibility = "hidden";
+          page_9.style.visibility = "visible";
         } else {
           console.log("error")
         }
@@ -236,6 +274,9 @@ import Footer from "../components/Footer.astro";
 
     const nextBtns8 = document.getElementById("nextBtn8");
     nextBtns8.addEventListener("click", changePageNext );
+
+    const prevBtns9 = document.getElementById("prevBtn9");
+    prevBtns9.addEventListener("click", changePagePrev );
 
   </script>
   <div class="w-screen h-72" style="background-image: url('https://media.discordapp.net/attachments/577998542149386253/1031382594006306876/unknown.png?width=1006&height=671');">
@@ -351,7 +392,7 @@ import Footer from "../components/Footer.astro";
             
             <p>La mayoría de las enzimas humanas son más activas a temperatura óptima, que es de 37°C, o temperatura corporal. A temperaturas superiores a 50°C, la estructura terciaria, y por ende la forma de la mayor parte de las proteínas, se destruye, lo que causa una pérdida de actividad enzimática. Otro dato curioso es que, por esta razón, el equipo en los hospitales y laboratorios se esteriliza en autoclaves donde las temperaturas altas desnaturalizan las enzimas que existen en las bacterias dañinas. Una fiebre corporal alta puede ayudar a desnaturalizar las enzimas existentes en las bacterias que causan la infección. (2)</p>
 
-            <img src="https://media.discordapp.net/attachments/577998542149386253/1033880008160194580/unknown.png" alt="" class="w-[50%] mt-16">
+            <img src="../../public/enzimas.png" alt="" class="w-[50%] mt-16">
             <div class="mt-24 opacity-60">
               <p class="italic break-all">
                 1. El ciclo de Krebs en el ejercicio clínico de la nutriología [Internet]. IIDENUT. 2020 [citado el 22 de octubre de 2022]. Disponible en: <span><a class="text-red-900 font-bold" href="https://www.iidenut.org/instituto/2020/03/14/el-ciclo-de-krebs-en-el-ejercicio-clinico-de-la-nutriologia/">https://www.iidenut.org/instituto/2020/03/14/el-ciclo-de-krebs-en-el-ejercicio-clinico-de-la-nutriologia/ </a></span>
@@ -421,7 +462,7 @@ import Footer from "../components/Footer.astro";
             
             <p>La piloerección es un fenómeno fisiológico que se desencadena involuntaria mete por el sistema nervioso simpático. Este consiste en la contracción de los músculos erectores del pelo; estos con la función de que los vellos se ericen. La reacción de poner los pelos de punta como respuesta al frío es un reflejo es porque los pelos erectos permiten atrapar el aire y crean una capa de aislamiento que ayuda a proteger de las bajas temperaturas. (1)</p>
 
-            <img src="https://media.discordapp.net/attachments/577998542149386253/1033887671459778590/unknown.png" alt="" class="w-[70%] mt-16 mx-auto">
+            <img src="../../public/piel-gallina.png" alt="" class="w-[70%] mt-16 mx-auto">
             <div class="mt-24 opacity-60">
               <p class="italic break-all">
                 1. Sánchez E. ¿Sabes qué es la piloerección? [Internet]. Mejor con Salud. 2019 [citado el 22 de octubre de 2022]. Disponible en: <span><a class="text-red-900 font-bold" href="https://mejorconsalud.as.com/sabes-que-es-la-piloereccion/">https://mejorconsalud.as.com/sabes-que-es-la-piloereccion/</a></span>
@@ -453,7 +494,7 @@ import Footer from "../components/Footer.astro";
             <br>
             <p>La información que reciben los receptores sensoriales térmicos (neuronas especializada, las cuales son sensibles al frio y al calor), estas detectan las sensaciones de temperaturas y asi envían impulsos ascendentes para llegar al encéfalo y exactamente al hipotálamo el cual enviara referencias (respuestas), para regular la temperatura, estos receptores se encuentran en piel, en la medula espinal, órganos internos y especialmente en la región posterior del hipotálamo, manteniendo como un valor de referencia una temperatura de 37ºC, al haber algún cambio este actuara para asi poder mantener una homeostasis o equilibrio en la temperatura corporal. (1)</p>
 
-            <img src="https://media.discordapp.net/attachments/577998542149386253/1033888927817408532/unknown.png" alt="" class="w-full md:w-[70%] my-8 mx-auto">
+            <img src="../../public/control.png" alt="" class="w-full md:w-[70%] my-8 mx-auto">
             <div class="mt-24 opacity-60">
               <p class="italic break-all">
                 1. Picón-Jaimes YA, Orozco-Chinome JE, Molina-Franky J, Franky-Rojas MP. Control central de la temperatura corporal y sus alteraciones: fiebre, hipertermia e hipotermia. Medunab [Internet]. 2020 [citado el 22 de octubre de 2022];23(1):118–30. Disponible en: <span><a class="text-red-900 font-bold" href="https://revistas.unab.edu.co/index.php/medunab/article/view/3714/3219">https://revistas.unab.edu.co/index.php/medunab/article/view/3714/3219</a></span>
@@ -487,7 +528,7 @@ import Footer from "../components/Footer.astro";
             <br>
             <p>Entonces colesterol presente en células eucariotas (es decir animales), refuerza la barrera semipermeable y colaboran en la fluidez de la membrana plasmática, por ello cuando hay bajas temperaturas el colesterol interfiere cadenas de ácidos grasos protegiendo a la membrana del congelamiento, en otras palabras. Previene que se compacten las cadenas hidrocarbonadas a bajas temperaturas, ya que evita que las colas se junten, aumenten las interacciones débiles entre las mismas y se “cristalicen” (adopten una estructura muy compacta (2).</p>
             
-            <img src="https://media.discordapp.net/attachments/577998542149386253/1033889146219020418/unknown.png" alt="" class="w-full md:w-[70%] my-8 mx-auto">
+            <img src="../../public/membrana1.png" alt="" class="w-full md:w-[70%] my-8 mx-auto">
             
             <div class="mt-24 opacity-60">
               <p class="italic break-all">
@@ -505,6 +546,42 @@ import Footer from "../components/Footer.astro";
             <div class="grid grid-cols-2 h-16 mt-16 auto-cols-max items-center">
               <div class="w-full h-full">
                 <button id="prevBtn8" class="w-full h-full bg-blue-900 hover:bg-blue-800 text-white font-bold">Anterior</button>
+              </div>
+              <div class="w-full h-full">
+                <button id="nextBtn8" class="w-full h-full bg-blue-800 hover:bg-blue-700 text-white font-bold">Siguiente</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 9 -->
+          <div class="text-justify w-screen md:w-[100%] absolute bg-white px-8 md:px-24 xl:px-32 pb-32" id="page9">
+            <div class="h-48 flex justify-center align-middle ">
+              <p class="text-2xl font-bold my-auto opacity-40">#SabiasQue</p>
+            </div>
+            <h1 class="text-xl sm:text-3xl md:text-5xl font-extrabold my-auto pb-12 uppercase text-left">La importancia de la sal (NaCI) en la regulación de la presión arterial.</h1>
+            <p>En estudios experimentales se ha demostrado que el aumento de la ingesta de sal eleva más la presión arterial que el aumento de la ingestión de agua; esto debido a que el agua se excreta normalmente por los riñones, casi con la misma velocidad en la que se ingiere, en cambio la san no se excreta tan fácilmente. (1)</p>
+            <p>Cuando se acumula la sal en el organismo asi mismo aumenta indirectamente el volumen del líquido extracelular, esto debido a dos razones. </p>
+            <br>
+            <img src="../../public/artt.png" alt="" class="w-full md:w-[70%] my-8 mx-auto">
+            <br>
+            <ul>
+              <li>1.    Cuando hay exceso de NaCl (sal) en el líquido extracelular, aumentara la osmolalidad del líquido, generando un estímulo al centro de la sed en el cerebro, generando que la persona desee tomar cantidades extras de agua, para nivelar la concentración extracelular de sal, aumentando asi el volumen del líquido extracelular. (1)</li>
+              <br>
+              <li>2.    Aumento de la osmolalidad causado por el exceso de la sal en el líquido extracelular también estimula el mecanismo secreto del eje hipotálamo-hipófisis de hormona antidiurética, esta hormona provoca una reabsorción renal de cantidades mucho mayores de agua del líquido tubular renal, lo que disminuye el volumen excretado de orina, pero aumenta el volumen del líquido extracelular. (1)</li>
+            </ul>
+            
+            <div class="mt-24 opacity-60">
+              <p class="italic break-all">
+                1. Hall JE. Guyton y Hall. Tratado de Fisiologia Medica + Studentconsult. 12a ed. Elsevier; 2016.
+              </p>
+              <br>
+              <p class="italic break-all">
+                2. <span class="font-bold">Imagen CDC.</span>  presion arterial [Internet]. unsplash; Publicado el 16 de septiembre de 2021. Disponible en: <span><a class="text-red-900 font-bold" href="https://unsplash.com/es/fotos/R4VUajOucGM">https://unsplash.com/es/fotos/R4VUajOucGM</a></span>
+              </p>
+            </div>
+            <div class="grid grid-cols-2 h-16 mt-16 auto-cols-max items-center">
+              <div class="w-full h-full">
+                <button id="prevBtn9" class="w-full h-full bg-blue-900 hover:bg-blue-800 text-white font-bold">Anterior</button>
               </div>
             </div>
           </div>
